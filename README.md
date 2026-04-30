@@ -2,6 +2,10 @@
 
 Paste Mermaid or markdown. Generate clean, editable FigJam userflows.
 
+<p align="center">
+  <img src="docs/assets/mermaid-jam-logo.png" alt="Mermaid Jam logo" width="132" />
+</p>
+
 [![CI](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml/badge.svg)](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/sarveshsea/mermaid-jam)](https://github.com/sarveshsea/mermaid-jam/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](./LICENSE)

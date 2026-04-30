@@ -11,8 +11,8 @@ const requiredFiles = [
   "PUBLISHING.md",
   "PRIVACY.md",
   "CHANGELOG.md",
-  "community-assets/icon.svg",
-  "community-assets/cover.svg",
+  "community-assets/icon.png",
+  "community-assets/cover.png",
 ];
 
 const manifest = JSON.parse(await readFile(manifestPath, "utf8"));

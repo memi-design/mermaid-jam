@@ -32,14 +32,12 @@ Publish from the Figma desktop app:
 6. Select **🧜‍♀️🍓 Mermaid Jam** and choose **Publish**.
 7. Confirm the plugin ID matches `1631708567749401678`.
 
-Community asset starters are in `community-assets/`:
+Community assets are in `community-assets/`:
 
-- `icon.svg`: square icon direction.
-- `cover.svg`: cover/banner direction.
-- `icon.png`: generated pixel-mermaid app icon.
-- `cover.png`: generated product cover image.
+- `icon.png`: pixel-mermaid app icon.
+- `cover.png`: product cover image showing Mermaid Jam working.
 
-If the Community publish modal requires PNG/JPG uploads, import these SVGs into Figma and export them at the requested sizes.
+Use the PNGs directly in Figma Community where image uploads are required.
 
 ## Listing Copy
 
