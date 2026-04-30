@@ -11,6 +11,10 @@ Mermaid Jam is a local-only FigJam plugin that converts pasted Mermaid diagrams 
 
 [Open on Figma Community](https://www.figma.com/community/plugin/1631708567749401678) · [Landing page](https://sarveshsea.github.io/mermaid-jam/) · [Examples](./examples) · [Distribution plan](./docs/DISTRIBUTION.md) · [Privacy](./PRIVACY.md)
 
+<p align="center">
+  <img src="docs/assets/mermaid-jam-hero.png" alt="Mermaid Jam generating an editable FigJam userflow from Mermaid source" width="100%" />
+</p>
+
 ## Why Use It
 
 - Turns copied Mermaid into editable FigJam boards instead of static screenshots.

@@ -36,6 +36,8 @@ Community asset starters are in `community-assets/`:
 
 - `icon.svg`: square icon direction.
 - `cover.svg`: cover/banner direction.
+- `icon.png`: generated pixel-mermaid app icon.
+- `cover.png`: generated product cover image.
 
 If the Community publish modal requires PNG/JPG uploads, import these SVGs into Figma and export them at the requested sizes.
 
