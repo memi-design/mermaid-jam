@@ -1,0 +1,19 @@
+{
+  "builtAt": "2026-04-30T19:38:47.251Z",
+  "bundleHash": "589322f0368e715a4577e8a5aedad977c7463f9960f761e2dbe888ec1be83ea1",
+  "manifest": {
+    "path": "/Users/sarveshchidambaram/Desktop/unicornjam/plugin/manifest.json",
+    "bytes": 414,
+    "sha256": "883bcc3fa5429e02e5bf7a36d435850fd7a2dc2eccf30dbdc9a53e2299b36b39"
+  },
+  "code": {
+    "path": "/Users/sarveshchidambaram/Desktop/unicornjam/plugin/code.js",
+    "bytes": 65192,
+    "sha256": "a5980b4591894788367bf13af6c422cae4b1b4893edb6a081e5a9fe9bb8423d3"
+  },
+  "ui": {
+    "path": "/Users/sarveshchidambaram/Desktop/unicornjam/plugin/ui.html",
+    "bytes": 583812,
+    "sha256": "9f4b44fc8e8a6dccd8ec9cd141288bb79c2a07e1a1895f481c13ecd0babb0ace"
+  }
+}

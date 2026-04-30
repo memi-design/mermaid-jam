@@ -1,0 +1,53 @@
+{
+  "name": "mermaid-jam",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only FigJam plugin that turns pasted Mermaid and markdown source into editable native FigJam diagrams.",
+  "scripts": {
+    "build": "node scripts/build-plugin.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test && npm run build && node scripts/check-ui-bundle.mjs",
+    "publish:check": "npm run check && node scripts/validate-publish.mjs",
+    "clean": "rm -rf dist plugin/code.js plugin/ui.html",
+    "check:ui-bundle": "node scripts/check-ui-bundle.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.124.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4",
+    "vitest": "^4.0.14"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarveshsea/mermaid-jam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarveshsea/mermaid-jam/issues"
+  },
+  "homepage": "https://www.figma.com/community/plugin/1631708567749401678",
+  "keywords": [
+    "figma",
+    "figjam",
+    "figma-plugin",
+    "mermaid",
+    "flowchart",
+    "user-flow",
+    "journey-map",
+    "diagram",
+    "sequence-diagram",
+    "state-diagram",
+    "mindmap",
+    "timeline"
+  ]
+}

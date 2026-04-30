@@ -1,0 +1,19 @@
+{
+  "name": "🧜‍♀️🍓 Mermaid Jam",
+  "id": "1631708567749401678",
+  "api": "1.0.0",
+  "editorType": ["figma", "figjam"],
+  "main": "code.js",
+  "ui": "ui.html",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "relaunchButtons": [
+    {
+      "command": "open",
+      "name": "Open 🧜‍♀️🍓 Mermaid Jam",
+      "multipleSelection": true
+    }
+  ]
+}

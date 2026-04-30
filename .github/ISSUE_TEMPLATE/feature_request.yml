@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a local-only improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What workflow should Mermaid Jam handle better?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should the plugin do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Parser
+        - Layout
+        - Renderer
+        - UI
+        - Journey visualization
+        - Publishing/docs
