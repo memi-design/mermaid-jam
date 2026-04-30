@@ -11,8 +11,8 @@ const requiredFiles = [
   "PUBLISHING.md",
   "PRIVACY.md",
   "CHANGELOG.md",
-  "community-assets/icon.png",
-  "community-assets/cover.png",
+  "docs/assets/mermaid-jam-logo.png",
+  "docs/assets/mermaid-jam-hero.png",
 ];
 
 const manifest = JSON.parse(await readFile(manifestPath, "utf8"));

@@ -32,12 +32,12 @@ Publish from the Figma desktop app:
 6. Select **🧜‍♀️🍓 Mermaid Jam** and choose **Publish**.
 7. Confirm the plugin ID matches `1631708567749401678`.
 
-Community assets are in `community-assets/`:
+Brand assets are in `docs/assets/`:
 
-- `icon.png`: pixel-mermaid app icon.
-- `cover.png`: product cover image showing Mermaid Jam working.
+- `mermaid-jam-logo.png`: app/logo image.
+- `mermaid-jam-hero.png`: product cover image.
 
-Use the PNGs directly in Figma Community where image uploads are required.
+Use these PNGs directly in Figma Community where image uploads are required.
 
 ## Listing Copy
 
