@@ -2,9 +2,14 @@
 
 Paste Mermaid or markdown. Generate clean, editable FigJam userflows.
 
+[![CI](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml/badge.svg)](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/sarveshsea/mermaid-jam)](https://github.com/sarveshsea/mermaid-jam/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](./LICENSE)
+[![Figma Community](https://img.shields.io/badge/Figma%20Community-Open-111111)](https://www.figma.com/community/plugin/1631708567749401678)
+
 Mermaid Jam is a local-only FigJam plugin that converts pasted Mermaid diagrams and markdown journey notes into native FigJam sections, shape cards, and dynamic connectors. It is built for product teams, designers, engineers, founders, and anyone who wants fast diagrams that remain editable after generation.
 
-[Open on Figma Community](https://www.figma.com/community/plugin/1631708567749401678) · [Publishing notes](./PUBLISHING.md) · [Privacy](./PRIVACY.md)
+[Open on Figma Community](https://www.figma.com/community/plugin/1631708567749401678) · [Landing page](https://sarveshsea.github.io/mermaid-jam/) · [Examples](./examples) · [Distribution plan](./docs/DISTRIBUTION.md) · [Privacy](./PRIVACY.md)
 
 ## Why Use It
 
@@ -84,6 +89,20 @@ npm run build
 Then import `plugin/manifest.json` from Figma using **Plugins > Development > Import plugin from manifest...**.
 
 The manifest is importable from Figma and FigJam, but generation requires a FigJam board because the renderer uses native FigJam shapes and connectors.
+
+## Copy-Paste Examples
+
+- [Flowchart](./examples/flowchart.md)
+- [Journey map](./examples/journey.md)
+- [Sequence diagram](./examples/sequence.md)
+- [Markdown userflow](./examples/markdown-userflow.md)
+
+## Help The Project Grow
+
+- Star the repo if Mermaid Jam saves you time.
+- Share the Figma Community listing with designers who use Mermaid.
+- Open issues with real Mermaid examples that do not convert cleanly.
+- Submit small parser/layout improvements with tests.
 
 ## Commands
 

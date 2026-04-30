@@ -3,3 +3,5 @@ dist/
 .vite/
 .DS_Store
 *.log
+
+plugin/build-meta.json

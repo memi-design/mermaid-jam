@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mermaid Jam - Mermaid to editable FigJam diagrams</title>
+    <meta name="description" content="Paste Mermaid or markdown and generate editable native FigJam userflows, journey maps, and diagrams. Local-only. No accounts. No analytics." />
+    <meta property="og:title" content="Mermaid Jam" />
+    <meta property="og:description" content="Paste Mermaid or markdown. Generate editable FigJam userflows." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sarveshsea.github.io/mermaid-jam/" />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f7f4;
+        --panel: #ffffff;
+        --text: #151515;
+        --muted: #5f5f5a;
+        --border: #deded8;
+        --black: #111111;
+        --green: #ddf5e6;
+        --blue: #e8f3ff;
+        --red: #ffe8e8;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      a { color: inherit; }
+      .wrap { max-width: 1120px; margin: 0 auto; padding: 40px 22px 64px; }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+        gap: 24px;
+        align-items: stretch;
+      }
+      .card, .diagram, .section {
+        border: 1px solid var(--border);
+        border-radius: 5px;
+        background: var(--panel);
+      }
+      .card { padding: 34px; }
+      h1 { margin: 0 0 14px; font-size: clamp(42px, 7vw, 76px); line-height: 0.95; letter-spacing: -0.05em; font-weight: 400; }
+      h2 { margin: 0 0 14px; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 400; }
+      p { margin: 0 0 18px; color: var(--muted); font-size: 18px; }
+      .kicker { color: var(--text); font-size: 15px; margin-bottom: 18px; }
+      .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--black); border-radius: 5px; text-decoration: none; }
+      .button.primary { background: var(--black); color: #fff; }
+      .button.secondary { background: #fff; color: var(--text); }
+      .diagram { padding: 28px; overflow: hidden; }
+      .flow { display: grid; gap: 20px; align-content: center; min-height: 100%; }
+      .node { min-height: 44px; padding: 10px 14px; border: 1px solid #cfcfca; border-radius: 5px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 14px; }
+      .node.dark { background: var(--black); color: #fff; border-color: var(--black); }
+      .node.blue { background: var(--blue); color: #16466f; border-color: #83bceb; }
+      .node.green { background: var(--green); color: #165a32; border-color: #78c592; }
+      .node.red { background: var(--red); color: #7a1f1f; border-color: #f08a8a; }
+      .arrow { height: 1px; background: #111; position: relative; }
+      .arrow::after { content: ""; position: absolute; right: -1px; top: -5px; width: 10px; height: 10px; border-top: 1px solid #111; border-right: 1px solid #111; transform: rotate(45deg); }
+      .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+      .section { padding: 22px; margin-top: 24px; }
+      .feature { padding: 18px; border: 1px solid var(--border); border-radius: 5px; background: #fff; }
+      .feature strong { display: block; margin-bottom: 8px; font-weight: 400; color: var(--text); }
+      code, pre { font-family: SFMono-Regular, Menlo, Consolas, monospace; }
+      pre { margin: 0; padding: 18px; overflow: auto; border: 1px solid var(--border); border-radius: 5px; background: #fbfbf8; font-size: 13px; }
+      footer { margin-top: 28px; color: var(--muted); font-size: 14px; }
+      @media (max-width: 860px) {
+        .hero, .grid { grid-template-columns: 1fr; }
+        .card { padding: 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="card">
+          <p class="kicker">🧜‍♀️🍓 Mermaid Jam</p>
+          <h1>Mermaid to editable FigJam.</h1>
+          <p>Paste Mermaid or markdown and generate native FigJam userflows, journey maps, sequence diagrams, state flows, mindmaps, and timelines.</p>
+          <p>Local-only. No accounts. No analytics. Dynamic connectors stay attached when cards move.</p>
+          <div class="actions">
+            <a class="button primary" href="https://www.figma.com/community/plugin/1631708567749401678">Open on Figma Community</a>
+            <a class="button secondary" href="https://github.com/sarveshsea/mermaid-jam">View GitHub</a>
+          </div>
+        </div>
+        <div class="diagram" aria-label="Diagram preview">
+          <div class="flow">
+            <div class="node dark">Open app</div>
+            <div class="arrow"></div>
+            <div class="node blue">Sign in screen</div>
+            <div class="arrow"></div>
+            <div class="node green">Guest flow ready</div>
+            <div class="arrow"></div>
+            <div class="node red">Blocked action</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Built for product and design workflows</h2>
+        <div class="grid">
+          <div class="feature"><strong>Editable output</strong><span>Uses native FigJam sections, shape cards, and connector nodes instead of static images.</span></div>
+          <div class="feature"><strong>Safe updates</strong><span>Preserves manually moved cards when source node IDs still match.</span></div>
+          <div class="feature"><strong>Local validation</strong><span>Line-level diagnostics catch malformed source before generation.</span></div>
+          <div class="feature"><strong>Layout controls</strong><span>Compact, Readable, Presentation, Print, Wide Map, and Deep Tree presets.</span></div>
+          <div class="feature"><strong>Journey views</strong><span>Clean timelines, score views, bottleneck callouts, and insight summaries.</span></div>
+          <div class="feature"><strong>Private by default</strong><span>No network access, no backend, no analytics, no account system.</span></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Copy-paste example</h2>
+        <pre>flowchart TD
+  Start["Open app"]
+  Loading["Loading"]
+  SignIn["Sign in screen"]
+  Guest["Tap Continue as guest"]
+
+  Start --&gt; Loading --&gt; SignIn --&gt; Guest</pre>
+      </section>
+
+      <footer>
+        MIT licensed. Built by <a href="https://github.com/sarveshsea">sarveshsea</a>.
+      </footer>
+    </main>
+  </body>
+</html>
