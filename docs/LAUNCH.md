@@ -13,7 +13,7 @@ I built Mermaid Jam: a local-only FigJam plugin that turns Mermaid flowcharts, j
 No backend. No accounts. No analytics. Paste source, fix line-level diagnostics, generate native FigJam cards/connectors, and update safely while preserving moved nodes.
 
 Figma Community: https://www.figma.com/community/plugin/1631708567749401678
-GitHub: https://github.com/sarveshsea/mermaid-jam
+GitHub: https://github.com/memi-design/mermaid-jam
 
 ## Longer Post
 
@@ -24,7 +24,7 @@ Mermaid Jam bridges that gap. Paste Mermaid or markdown into FigJam and generate
 The plugin stays local-only: no accounts, no Supabase, no analytics, no AI service, and no network access. It includes line-level diagnostics, local revise/formatting, layout presets, connector routing controls, semantic styling, journey score views, and update-in-place with manual layout preservation.
 
 Figma Community: https://www.figma.com/community/plugin/1631708567749401678
-GitHub: https://github.com/sarveshsea/mermaid-jam
+GitHub: https://github.com/memi-design/mermaid-jam
 
 ## Product Hunt / Directory Copy
 

@@ -24,16 +24,16 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "typescript": "~6.0.2",
-    "vite": "^8.0.4",
+    "vite": "^8.1.5",
     "vitest": "^4.0.14"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarveshsea/mermaid-jam.git"
+    "url": "https://github.com/memi-design/mermaid-jam.git"
   },
   "bugs": {
-    "url": "https://github.com/sarveshsea/mermaid-jam/issues"
+    "url": "https://github.com/memi-design/mermaid-jam/issues"
   },
   "homepage": "https://www.figma.com/community/plugin/1631708567749401678",
   "keywords": [
