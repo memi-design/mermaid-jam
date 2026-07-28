@@ -18,14 +18,14 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@figma/plugin-typings": "^1.124.0",
-    "@types/node": "^25.6.0",
+    "@figma/plugin-typings": "^1.131.0",
+    "@types/node": "^26.1.2",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "typescript": "~6.0.2",
+    "@vitejs/plugin-react": "^6.0.4",
+    "typescript": "~7.0.2",
     "vite": "^8.1.5",
-    "vitest": "^4.0.14"
+    "vitest": "^4.1.10"
   },
   "license": "MIT",
   "repository": {
