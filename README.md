@@ -6,14 +6,14 @@ Paste Mermaid or markdown. Generate clean, editable FigJam userflows.
   <img src="docs/assets/mermaid-jam-logo.png" alt="Mermaid Jam logo" width="132" />
 </p>
 
-[![CI](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml/badge.svg)](https://github.com/sarveshsea/mermaid-jam/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/sarveshsea/mermaid-jam)](https://github.com/sarveshsea/mermaid-jam/releases)
+[![CI](https://github.com/memi-design/mermaid-jam/actions/workflows/ci.yml/badge.svg)](https://github.com/memi-design/mermaid-jam/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/memi-design/mermaid-jam)](https://github.com/memi-design/mermaid-jam/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg)](./LICENSE)
 [![Figma Community](https://img.shields.io/badge/Figma%20Community-Open-111111)](https://www.figma.com/community/plugin/1631708567749401678)
 
 Mermaid Jam is a local-only FigJam plugin that converts pasted Mermaid diagrams and markdown journey notes into native FigJam sections, shape cards, and dynamic connectors. It is built for product teams, designers, engineers, founders, and anyone who wants fast diagrams that remain editable after generation.
 
-[Open on Figma Community](https://www.figma.com/community/plugin/1631708567749401678) · [Landing page](https://sarveshsea.github.io/mermaid-jam/) · [Examples](./examples) · [Distribution plan](./docs/DISTRIBUTION.md) · [Privacy](./PRIVACY.md)
+[Open on Figma Community](https://www.figma.com/community/plugin/1631708567749401678) · [Landing page](https://memi-design.github.io/mermaid-jam/) · [Examples](./examples) · [Distribution plan](./docs/DISTRIBUTION.md) · [Privacy](./PRIVACY.md)
 
 <p align="center">
   <img src="docs/assets/mermaid-jam-hero.png" alt="Mermaid Jam generating an editable FigJam userflow from Mermaid source" width="100%" />
@@ -88,7 +88,7 @@ Journey mode can render clean timelines, score views, or insight summaries with 
 ## Install For Development
 
 ```bash
-git clone https://github.com/sarveshsea/mermaid-jam.git
+git clone https://github.com/memi-design/mermaid-jam.git
 cd mermaid-jam
 npm install
 npm run build
