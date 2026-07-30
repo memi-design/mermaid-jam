@@ -14,13 +14,13 @@
     "check:ui-bundle": "node scripts/check-ui-bundle.mjs"
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.124.0",
     "@types/node": "^25.6.0",
-    "@types/react": "^19.2.6",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "typescript": "~6.0.2",
